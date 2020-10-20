@@ -14,6 +14,7 @@
 		<variable
 			name="fragment"
 			type="id.ac.polinema.skor.fragments.ScoreFragment" />
+
 	</data>
 
 	<androidx.constraintlayout.widget.ConstraintLayout
