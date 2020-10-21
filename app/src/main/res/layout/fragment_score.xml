@@ -82,20 +82,19 @@
 			android:id="@+id/text_home_score"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="@{String.valueOf(homeGoalScorerList.size())}"
 			android:textSize="64sp"
+			android:text="@{String.valueOf(homeGoalScorerList.size())}"
 			app:layout_constraintBottom_toTopOf="@+id/guideline"
 			app:layout_constraintEnd_toEndOf="parent"
 			app:layout_constraintStart_toStartOf="parent"
 			app:layout_constraintTop_toTopOf="parent" />
 
-
 		<TextView
 			android:id="@+id/text_away_score"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="@{String.valueOf(awayGoalScorerList.size())}"
 			android:textSize="64sp"
+			android:text="@{String.valueOf(awayGoalScorerList.size())}"
 			app:layout_constraintBottom_toBottomOf="parent"
 			app:layout_constraintEnd_toEndOf="parent"
 			app:layout_constraintStart_toStartOf="parent"
